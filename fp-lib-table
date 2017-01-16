@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name satori)(type KiCad)(uri "$(KIPRJMOD)/satori.pretty")(options "")(descr ""))
+)
