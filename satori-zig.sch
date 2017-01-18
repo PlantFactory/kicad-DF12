@@ -222,4 +222,16 @@ Wire Wire Line
 	6800 1200 6800 1300
 Wire Wire Line
 	6350 1200 6350 1300
+Text Label 3200 2600 0    60   ~ 0
+3V3
+Text Label 3200 2700 0    60   ~ 0
+GND
+Text Label 3200 2800 0    60   ~ 0
+RESET
+Text Label 3200 2900 0    60   ~ 0
+RX
+Text Label 3200 3000 0    60   ~ 0
+TX
+Text Label 3200 3100 0    60   ~ 0
+WAKE
 $EndSCHEMATC
