@@ -269,7 +269,7 @@
   )
 
   (module Mounting_Holes:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 58A3ED8D) (tstamp 58A3ED80)
-    (at 123.2 96.5)
+    (at 123.2 98.7)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
