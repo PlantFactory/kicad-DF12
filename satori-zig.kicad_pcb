@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -137,10 +137,10 @@
     (add_net "Net-(CN1-Pad9)")
   )
 
-  (module satori:DF12-3_5-20DP-0_5V (layer F.Cu) (tedit 58A55F9D) (tstamp 5850231A)
+  (module satori:DF12-3_5-20DP-0_5V (layer F.Cu) (tedit 58A57AB7) (tstamp 5850231A)
     (at 157.42 106.47 270)
     (path /584FAC50)
-    (fp_text reference CN1 (at 4.02 -1.33 540) (layer F.SilkS)
+    (fp_text reference CN1 (at 4.02 -1.33 360) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value "" (at 4.782 -3.235 360) (layer F.Fab)
