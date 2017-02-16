@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 89.274276 91.225 188.057143 133.210544)
     (thickness 1.6)
-    (drawings 21)
+    (drawings 20)
     (tracks 56)
     (zones 0)
     (modules 8)
@@ -330,7 +330,6 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (target plus (at 112 118) (size 5) (width 0.1) (layer Edge.Cuts))
   (gr_line (start 158.8 117.5) (end 158.9 92.7) (layer Eco1.User) (width 0.2))
   (dimension 2.2 (width 0.3) (layer Eco1.User)
     (gr_text "2.200 mm" (at 159.860861 131.860543) (layer Eco1.User) (tstamp 58A3E438)
