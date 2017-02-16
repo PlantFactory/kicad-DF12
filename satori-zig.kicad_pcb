@@ -8,7 +8,7 @@
     (drawings 21)
     (tracks 56)
     (zones 0)
-    (modules 9)
+    (modules 8)
     (nets 18)
   )
 
@@ -137,7 +137,7 @@
     (add_net "Net-(CN1-Pad9)")
   )
 
-  (module satori:DF12-3_5-20DP-0_5V (layer F.Cu) (tedit 587ED54A) (tstamp 5850231A)
+  (module satori:DF12-3_5-20DP-0_5V (layer F.Cu) (tedit 58A55F9D) (tstamp 5850231A)
     (at 157.42 106.47 270)
     (path /584FAC50)
     (fp_text reference CN1 (at 4.02 -1.33 540) (layer F.SilkS)
@@ -195,6 +195,8 @@
       (zone_connect 0))
     (pad 22 thru_hole circle (at 3.2 1.5 270) (size 0.6 0.6) (drill 0.6) (layers *.Cu *.Mask)
       (zone_connect 0))
+    (pad 23 smd rect (at 3.9 0 270) (size 0.8 2) (layers F.Cu F.Paste F.Mask))
+    (pad 24 smd rect (at -3.9 0 270) (size 0.8 2) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x06 (layer F.Cu) (tedit 587ED555) (tstamp 58502324)
@@ -240,21 +242,6 @@
 
   (module Mounting_Holes:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 58A3ED23) (tstamp 58A3EC8B)
     (at 158.8 114.3)
-    (descr "Mounting Hole 2.2mm, no annular, M2")
-    (tags "mounting hole 2.2mm no annular m2")
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
-    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
-    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
-  (module Mounting_Holes:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 58A3ED6D) (tstamp 58A3ED53)
-    (at 123.2 114.3)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
